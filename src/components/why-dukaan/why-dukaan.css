@@ -1,0 +1,44 @@
+
+.why-dukaan {
+    padding: var(--common-padding);
+  }
+  
+  .why-dukaan h2 {
+    padding: 8vh 6vw;
+    font-size: 32px;
+    text-align: center;
+    color: #1a181e;
+  }
+  
+  /* Card styles */
+  
+  .why-dukkan-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .why-dukaan-left,
+  .why-dukaan-right {
+    width: 50%;
+  }
+  
+  .why-dukaan-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .why-dukaan-right h3 {
+    font-size: 24px;
+    color: #1a181e;
+    padding: 1rem 0;
+  }
+  
+  .why-dukaan-right p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  

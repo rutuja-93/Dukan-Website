@@ -1,0 +1,27 @@
+
+.themes-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .themes-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .themes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    justify-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .view-all {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  

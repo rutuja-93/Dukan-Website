@@ -1,0 +1,37 @@
+
+.features {
+    padding: 50px 30px;
+    background-color: #fff7ec;
+    text-align: center;
+  }
+  
+  .features-heading {
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: #222;
+  }
+  
+  .features-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .growth-card {
+    padding: var(--common-padding);
+    background-color: rgba(250, 183, 59, .1);;
+  }
+  .growth-card h1 {
+    padding: 1vh 1vw;
+    font-size: 32px;
+    text-align: center;
+    color: #1a181e;
+  }
+  .growth-card p {
+    padding: none;
+    font-size: 16px;
+    text-align: center;
+    color:#4d4d4d;;
+  }
+  
